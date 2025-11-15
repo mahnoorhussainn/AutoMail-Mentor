@@ -1,59 +1,20 @@
 📨 AutoMail Mentor
 
-An AI-powered automated email response system built with n8n + Gemini + Gmail API
+AutoMail Mentor is an AI-powered email automation system built with n8n, Google Gemini, and the Gmail API. It streamlines handling of course queries, student doubts, and sponsorship requests.
 
-AutoMail Mentor is a smart automation workflow designed to handle incoming emails related to course queries, student doubts, and sponsorship requests.
-It automatically classifies emails, assigns labels, drafts a polished HTML response, and sends the draft to you for review before sending it out.
+Features:
 
-🚀 Features
-✅ 1. Auto Email Classification
+Auto Email Classification
+The system intelligently scans incoming emails and classifies them as course-related, doubts, or sponsorship requests, ensuring every message is routed correctly.
 
-Automatically detects the type of email:
+Smart Label Assignment
+AutoMail Mentor assigns a valid numeric label compatible with Gmail, keeping your inbox organized and easy to navigate.
 
-course
+AI-Generated Reply Drafts
+Using Google Gemini, the system generates polished HTML responses in a professional and respectful tone, with subject lines and detailed explanations for doubts when necessary.
 
-doubts
+Review Before Sending
+Draft replies are sent to your inbox first, giving you full control to review, edit if needed, and ensure accuracy and personalization before sending.
 
-sponsorship
-
-✅ 2. Smart Label Assignment
-
-Assigns a valid, numeric label ID for Gmail API compatibility.
-
-✅ 3. AI-Generated Reply Drafts
-
-Uses Google Gemini API to generate:
-
-A respectful, structured email reply
-
-Clean HTML formatting
-
-A clear subject line
-
-Detailed explanations for doubt-related emails
-
-✅ 4. Review Before Sending
-
-The reply draft is sent to you first, ensuring:
-
-No incorrect or rushed emails
-
-Full control before the email is delivered
-
-Quality + personalization
-
-✅ 5. Built on n8n
-
-Everything is fully automated using:
-
-Gmail Trigger
-
-Gemini AI node
-
-JSON transformation
-
-Add Label node
-
-Gmail send node
-
-Error handling flows
+Fully Automated Workflow on n8n
+The workflow orchestrates the entire process: fetching emails, sending content to Gemini, transforming JSON responses, applying labels, and preparing drafts for review—all automatically.
